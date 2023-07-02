@@ -1,6 +1,7 @@
 <script setup>
   import q from './data/quizes.json'
   import {ref, watch} from 'vue'
+  import Card from './components/Card.vue'
 
   const quizes = ref(q)
   const search = ref('')
@@ -14,7 +15,7 @@
   <div class="container mx-auto">
     <header class="header mb-2.5 mt-2.5 flex items-center">
       <h1 class="text-4xl inline-block font-bold mr-7">Quizes</h1>
-      <input 
+      <input
         v-model.trim="search"
         type="text"
         placeholder="Search..."
@@ -22,7 +23,11 @@
       >
     </header>
     <div class="options-container flex flex-wrap mt-10">
-      <div 
+      <Card 
+        v-for="quiz in quizes"
+        :key="quiz.id"
+      />
+      <!-- <div 
         v-for="quiz in quizes"
         :key="quiz.id"
         class="card w-80 overflow-hidden rounded mb-9 mr-5 cursor-pointer"
@@ -36,7 +41,7 @@
           <h2 class="font-bold">{{ quiz.name }}</h2>
           <p>{{ quiz.questions.length }} questions</p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
