@@ -1,6 +1,7 @@
 <script setup>
   import Question from '../components/Question.vue'
   import QuizHeader from '../components/QuizHeader.vue'
+  import Result from '../components/Result.vue'
   import { useRoute } from 'vue-router'
   import { ref, computed } from 'vue';
   import quizes from '../data/quizes.json'
@@ -14,6 +15,8 @@
   const currentQuestionsIndex = ref(0)
 
   const numberOfCorrectAnswers = ref(0)
+
+  const showResults = ref(false)
 
   // const questionsStatus = ref(`${currentQuestionsIndex.value}/${quiz.questions.length}`)
 
@@ -33,6 +36,10 @@
       numberOfCorrectAnswers.value++
     }
 
+    if(quiz.questions.length - 1 === currentQuestionsIndex.value) {
+      showResults.value = true
+    }
+
     currentQuestionsIndex.value++
   }
 </script>
@@ -45,12 +52,15 @@
     />
     <div>
       <Question 
+        v-if="!showResults"
         :questions="quiz.questions[currentQuestionsIndex]"
         @selectOption="onOptionSelected"
       />
+      <Result 
+        v-else 
+        :quizQuestionLength="quiz.questions.length"
+        :numberOfCorrectAnswers="numberOfCorrectAnswers"
+      />
     </div>
-    <button @click="currentQuestionsIndex++">
-      Next Question
-    </button>
   </div>
 </template>
