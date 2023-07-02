@@ -26,6 +26,7 @@
       <Card 
         v-for="quiz in quizes"
         :key="quiz.id"
+        :quiz="quiz"
       />
       <!-- <div 
         v-for="quiz in quizes"
