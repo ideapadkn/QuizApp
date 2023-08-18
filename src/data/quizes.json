@@ -289,5 +289,102 @@
               ]
           }
       ]
-  }
+  },
+  {
+    "id": 4,
+    "img": "https://www.dundryprimary.co.uk/wp-content/uploads/2021/11/istockphoto-1092170968-612x612-1.jpg",
+    "name": "History",
+    "questions": [
+        {
+            "id": 1,
+            "text": "When did Peace People, a grassroots movement to protest the ongoing violence in Northern Ireland, begin?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "1976",
+                    "isCorrect": true
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "1892",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "1782",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "1974",
+                    "isCorrect": false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "What did Sidi Mubarak Bombay and John Hanning Speke achieve on their 1860 expedition?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "They uncovered the ruins of Great Zimbabwe",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "They discovered Victoria falls",
+                    "isCorrect": false
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "They circumnavigated Lake Victoria",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "They established the source of the White Nile",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "text": "It is predicted that the population of Athens plummeted by what percentage between the 13th and 11th centuries BC?",
+            "options": [
+                {
+                    "id": 1,
+                    "label": "A",
+                    "text": "80 per cent",
+                    "isCorrect": false
+                },
+                {
+                    "id": 2,
+                    "label": "B",
+                    "text": "90 per cent",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "label": "C",
+                    "text": "65 per cent",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "label": "D",
+                    "text": "15 per cent",
+                    "isCorrect": false
+                }
+            ]
+        }
+    ]
+}
 ]

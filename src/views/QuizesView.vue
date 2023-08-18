@@ -9,6 +9,7 @@
   watch(search, () => {
     quizes.value = q.filter(quiz => quiz.name.toLowerCase().includes(search.value.toLowerCase()))
   })
+  
 </script>
 
 <template>
@@ -19,7 +20,7 @@
         v-model.trim="search"
         type="text"
         placeholder="Search..."
-        class="border-2 inline-block border-none focus:outline-none rounded-md bg-slate-200 p-1"
+        class="border-2 inline-block border-none focus:outline-none rounded-md bg-slate-200 py-1 px-2"
       >
     </header>
     <div class="options-container flex flex-wrap mt-10">
