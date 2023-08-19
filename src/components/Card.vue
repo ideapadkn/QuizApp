@@ -18,7 +18,7 @@
     <img 
       :src="quiz.img" 
       alt="math"
-      class="w-full m-0"
+      class="w-full m-0 h-[200px]"
     >
     <div class="card-text p-2">
       <h2 class="font-bold">{{ quiz.name }}</h2>
