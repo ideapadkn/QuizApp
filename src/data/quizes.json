@@ -66,6 +66,66 @@
       },
       {
         "id": 3,
+        "text": "x + 4 = 9",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "3",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "5",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "x^2 + 4 = 13",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "3",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "9",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "16",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
         "text": "3 + 3 x 3 ÷ 3 - 3",
         "options": [
           {
@@ -389,6 +449,103 @@
   },
   {
     "id": 5,
+    "img": "https://dan-it.com.ua/wp-content/uploads/2019/01/javascript.png",
+    "name": "JavaScript",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Inside which HTML element do we put the JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<js>",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<script>",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<javascript>",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "<scripting>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Where is the correct place to insert a JavaScript?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "The <head> section",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "The <title> section",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "The <body> section",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Both the <head> section and the <body> section are correct",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How do you write 'Hello World' in an alert box?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "msgBox('Hello World')",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "alert('Hello World')",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "alertBox('Hello World')",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "msg('Hello World')",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
     "img": "https://live-production.wcms.abc-cdn.net.au/e39084cd21a4fc0641f221750d91ef3c?impolicy=wcms_crop_resize&cropH=974&cropW=1731&xPos=0&yPos=0&width=862&height=485",
     "name": "Physics",
     "questions": [
