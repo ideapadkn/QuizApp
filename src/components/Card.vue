@@ -13,7 +13,7 @@
 <template>
   <div 
     @click="navigateToQuiz"
-    class="card w-80 overflow-hidden rounded mb-9 mr-5 cursor-pointer"
+    class="card w-80 overflow-hidden rounded mb-9 mr-5 cursor-pointer hover:scale-105 transition-all"
   >
     <img 
       :src="quiz.img" 
@@ -23,6 +23,6 @@
     <div class="card-text p-2">
       <h2 class="font-bold">{{ quiz.name }}</h2>
       <p>{{ quiz.questions.length }} questions</p>
-    </div>
+    </div>  
   </div>
 </template>
